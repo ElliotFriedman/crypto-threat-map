@@ -179,6 +179,7 @@ export async function loadData() {
 export function initLayers(countriesTopo, statesTopo) {
   const map = getMap();
   const countriesGeo = topojson.feature(countriesTopo, countriesTopo.objects.countries);
+  fixAntimeridian(countriesGeo);
   const statesGeo = topojson.feature(statesTopo, statesTopo.objects.states);
 
   // Country layer
@@ -346,4 +347,105 @@ export function showUSView() {
   const map = getMap();
   if (countryLayer && map.hasLayer(countryLayer)) map.removeLayer(countryLayer);
   if (stateLayer && !map.hasLayer(stateLayer)) map.addLayer(stateLayer);
+}
+
+/**
+ * Fix polygons that cross the ±180° antimeridian by splitting them into
+ * separate east/west polygons. Without this, Leaflet draws horizontal bands
+ * across the entire map for countries like Russia, Fiji, and Antarctica.
+ */
+function fixAntimeridian(geojson) {
+  for (const feature of geojson.features) {
+    const geom = feature.geometry;
+    if (!geom) continue;
+
+    if (geom.type === 'Polygon') {
+      if (ringCrossesAntimeridian(geom.coordinates[0])) {
+        const split = splitPolygonAtAntimeridian(geom.coordinates);
+        feature.geometry = { type: 'MultiPolygon', coordinates: split };
+      }
+    } else if (geom.type === 'MultiPolygon') {
+      const newPolygons = [];
+      for (const poly of geom.coordinates) {
+        if (ringCrossesAntimeridian(poly[0])) {
+          newPolygons.push(...splitPolygonAtAntimeridian(poly));
+        } else {
+          newPolygons.push(poly);
+        }
+      }
+      geom.coordinates = newPolygons;
+    }
+  }
+}
+
+function ringCrossesAntimeridian(ring) {
+  for (let i = 1; i < ring.length; i++) {
+    if (Math.abs(ring[i][0] - ring[i - 1][0]) > 180) return true;
+  }
+  return false;
+}
+
+function splitPolygonAtAntimeridian(rings) {
+  const { east, west } = splitRingAtAntimeridian(rings[0]);
+  const eastPoly = east.length >= 4 ? [east] : null;
+  const westPoly = west.length >= 4 ? [west] : null;
+
+  // Assign any inner rings (holes) to the polygon that contains them
+  for (let h = 1; h < rings.length; h++) {
+    const hole = rings[h];
+    if (!hole.length) continue;
+    if (ringCrossesAntimeridian(hole)) {
+      const split = splitRingAtAntimeridian(hole);
+      if (eastPoly && split.east.length >= 4) eastPoly.push(split.east);
+      if (westPoly && split.west.length >= 4) westPoly.push(split.west);
+    } else {
+      // Assign hole to the side its first coordinate falls on
+      const target = hole[0][0] >= 0 ? eastPoly : westPoly;
+      if (target) target.push(hole);
+    }
+  }
+
+  const result = [];
+  if (eastPoly) result.push(eastPoly);
+  if (westPoly) result.push(westPoly);
+  return result.length > 0 ? result : [rings];
+}
+
+function splitRingAtAntimeridian(ring) {
+  const east = [];
+  const west = [];
+
+  for (let i = 0; i < ring.length - 1; i++) {
+    const curr = ring[i];
+    const next = ring[i + 1];
+
+    if (curr[0] >= 0) {
+      east.push(curr);
+    } else {
+      west.push(curr);
+    }
+
+    if (Math.abs(curr[0] - next[0]) > 180) {
+      const lat = interpolateLatAtMeridian(curr, next);
+      east.push([180, lat]);
+      west.push([-180, lat]);
+    }
+  }
+
+  if (east.length >= 3) east.push(east[0].slice());
+  if (west.length >= 3) west.push(west[0].slice());
+
+  return { east, west };
+}
+
+function interpolateLatAtMeridian(p1, p2) {
+  let [lng1, lat1] = p1;
+  let [lng2, lat2] = p2;
+  if (lng2 - lng1 > 180) lng2 -= 360;
+  if (lng1 - lng2 > 180) lng2 += 360;
+  const target = lng1 >= 0 ? 180 : -180;
+  const dLng = lng2 - lng1;
+  if (Math.abs(dLng) < 1e-10) return lat1;
+  const t = (target - lng1) / dLng;
+  return lat1 + t * (lat2 - lat1);
 }
