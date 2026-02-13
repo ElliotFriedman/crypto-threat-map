@@ -1,0 +1,1821 @@
+{
+  "US": {
+    "country_code": "US",
+    "country_name": "United States",
+    "incident_count": 52,
+    "severity_distribution": {
+      "1": 5,
+      "2": 11,
+      "3": 21,
+      "4": 15,
+      "5": 0
+    },
+    "avg_severity": 2.88,
+    "max_severity": 4,
+    "risk_tier": 4,
+    "incidents_by_year": {
+      "2014": 1,
+      "2015": 3,
+      "2016": 1,
+      "2017": 3,
+      "2018": 8,
+      "2020": 3,
+      "2021": 3,
+      "2022": 9,
+      "2023": 4,
+      "2024": 8,
+      "2025": 8,
+      "2026": 1
+    },
+    "most_recent": "2026-01-31",
+    "top_types": [
+      "armed_robbery",
+      "home_invasion",
+      "kidnapping",
+      "robbery",
+      "atm_theft"
+    ],
+    "is_conflict_zone": false
+  },
+  "NL": {
+    "country_code": "NL",
+    "country_name": "Netherlands",
+    "incident_count": 7,
+    "severity_distribution": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 2.29,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2015": 2,
+      "2016": 1,
+      "2019": 1,
+      "2021": 2,
+      "2022": 1
+    },
+    "most_recent": "2022-12-03",
+    "top_types": [
+      "atm_theft",
+      "robbery",
+      "torture",
+      "otc_trade",
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "LT": {
+    "country_code": "LT",
+    "country_name": "Lithuania",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2016": 1
+    },
+    "most_recent": "2016-07-11",
+    "top_types": [
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "CA": {
+    "country_code": "CA",
+    "country_name": "Canada",
+    "incident_count": 17,
+    "severity_distribution": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 8,
+      "5": 1
+    },
+    "avg_severity": 3.35,
+    "max_severity": 5,
+    "risk_tier": 3,
+    "incidents_by_year": {
+      "2016": 1,
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 4,
+      "2024": 6,
+      "2025": 1
+    },
+    "most_recent": "2025-09-05",
+    "top_types": [
+      "kidnapping",
+      "armed_robbery",
+      "torture",
+      "home_invasion",
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "GB": {
+    "country_code": "GB",
+    "country_name": "United Kingdom",
+    "incident_count": 21,
+    "severity_distribution": {
+      "1": 0,
+      "2": 10,
+      "3": 6,
+      "4": 5,
+      "5": 0
+    },
+    "avg_severity": 2.76,
+    "max_severity": 4,
+    "risk_tier": 3,
+    "incidents_by_year": {
+      "2017": 1,
+      "2018": 2,
+      "2019": 2,
+      "2020": 4,
+      "2021": 1,
+      "2022": 2,
+      "2023": 5,
+      "2024": 2,
+      "2025": 2
+    },
+    "most_recent": "2025-11-04",
+    "top_types": [
+      "robbery",
+      "otc_trade",
+      "armed_robbery",
+      "kidnapping",
+      "home_invasion"
+    ],
+    "is_conflict_zone": false
+  },
+  "BR": {
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "incident_count": 8,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 5,
+      "5": 1
+    },
+    "avg_severity": 3.75,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2017": 1,
+      "2021": 2,
+      "2024": 1,
+      "2025": 4
+    },
+    "most_recent": "2025-06-24",
+    "top_types": [
+      "kidnapping",
+      "extortion",
+      "home_invasion",
+      "otc_trade",
+      "drugging"
+    ],
+    "is_conflict_zone": false
+  },
+  "AE": {
+    "country_code": "AE",
+    "country_name": "United Arab Emirates",
+    "incident_count": 10,
+    "severity_distribution": {
+      "1": 0,
+      "2": 4,
+      "3": 3,
+      "4": 2,
+      "5": 1
+    },
+    "avg_severity": 3,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2017": 1,
+      "2018": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 4,
+      "2023": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-10-02",
+    "top_types": [
+      "otc_trade",
+      "robbery",
+      "kidnapping",
+      "home_invasion",
+      "torture"
+    ],
+    "is_conflict_zone": false
+  },
+  "JP": {
+    "country_code": "JP",
+    "country_name": "Japan",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+    },
+    "avg_severity": 4.5,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2017": 1,
+      "2022": 1
+    },
+    "most_recent": "2022-06-01",
+    "top_types": [
+      "murder",
+      "kidnapping",
+      "torture"
+    ],
+    "is_conflict_zone": false
+  },
+  "UA": {
+    "country_code": "UA",
+    "country_name": "Ukraine",
+    "incident_count": 9,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 7,
+      "5": 0
+    },
+    "avg_severity": 3.67,
+    "max_severity": 4,
+    "risk_tier": 5,
+    "incidents_by_year": {
+      "2017": 2,
+      "2018": 2,
+      "2020": 2,
+      "2021": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-10-10",
+    "top_types": [
+      "kidnapping",
+      "torture",
+      "extortion",
+      "robbery",
+      "mining_theft"
+    ],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict with Russia"
+  },
+  "FR": {
+    "country_code": "FR",
+    "country_name": "France",
+    "incident_count": 32,
+    "severity_distribution": {
+      "1": 0,
+      "2": 2,
+      "3": 3,
+      "4": 26,
+      "5": 1
+    },
+    "avg_severity": 3.81,
+    "max_severity": 5,
+    "risk_tier": 4,
+    "incidents_by_year": {
+      "2017": 1,
+      "2021": 1,
+      "2022": 1,
+      "2024": 1,
+      "2025": 20,
+      "2026": 8
+    },
+    "most_recent": "2026-02-04",
+    "top_types": [
+      "kidnapping",
+      "extortion",
+      "otc_trade",
+      "torture",
+      "home_invasion"
+    ],
+    "is_conflict_zone": false
+  },
+  "TR": {
+    "country_code": "TR",
+    "country_name": "Turkey",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2017": 1
+    },
+    "most_recent": "2017-11-15",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "IS": {
+    "country_code": "IS",
+    "country_name": "Iceland",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2017": 1
+    },
+    "most_recent": "2017-12-01",
+    "top_types": [
+      "mining_theft"
+    ],
+    "is_conflict_zone": false
+  },
+  "RU": {
+    "country_code": "RU",
+    "country_name": "Russia",
+    "incident_count": 10,
+    "severity_distribution": {
+      "1": 0,
+      "2": 3,
+      "3": 4,
+      "4": 3,
+      "5": 0
+    },
+    "avg_severity": 3,
+    "max_severity": 4,
+    "risk_tier": 5,
+    "incidents_by_year": {
+      "2018": 3,
+      "2021": 2,
+      "2022": 3,
+      "2023": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-11-24",
+    "top_types": [
+      "robbery",
+      "kidnapping",
+      "extortion",
+      "armed_robbery",
+      "mining_theft"
+    ],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, arbitrary enforcement"
+  },
+  "TH": {
+    "country_code": "TH",
+    "country_name": "Thailand",
+    "incident_count": 16,
+    "severity_distribution": {
+      "1": 0,
+      "2": 5,
+      "3": 4,
+      "4": 7,
+      "5": 0
+    },
+    "avg_severity": 3.13,
+    "max_severity": 4,
+    "risk_tier": 3,
+    "incidents_by_year": {
+      "2018": 1,
+      "2020": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 5,
+      "2025": 6
+    },
+    "most_recent": "2025-12-29",
+    "top_types": [
+      "robbery",
+      "kidnapping",
+      "armed_robbery",
+      "extortion",
+      "otc_trade"
+    ],
+    "is_conflict_zone": false
+  },
+  "HK": {
+    "country_code": "HK",
+    "country_name": "Hong Kong",
+    "incident_count": 11,
+    "severity_distribution": {
+      "1": 0,
+      "2": 6,
+      "3": 3,
+      "4": 2,
+      "5": 0
+    },
+    "avg_severity": 2.64,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2018": 1,
+      "2021": 5,
+      "2024": 1,
+      "2025": 4
+    },
+    "most_recent": "2025-12-18",
+    "top_types": [
+      "otc_trade",
+      "armed_robbery",
+      "robbery",
+      "kidnapping",
+      "extortion"
+    ],
+    "is_conflict_zone": false
+  },
+  "IN": {
+    "country_code": "IN",
+    "country_name": "India",
+    "incident_count": 12,
+    "severity_distribution": {
+      "1": 0,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 1
+    },
+    "avg_severity": 3.33,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2018": 1,
+      "2019": 2,
+      "2022": 4,
+      "2023": 1,
+      "2024": 1,
+      "2025": 3
+    },
+    "most_recent": "2025-07-15",
+    "top_types": [
+      "otc_trade",
+      "extortion",
+      "kidnapping",
+      "torture",
+      "murder"
+    ],
+    "is_conflict_zone": false
+  },
+  "TW": {
+    "country_code": "TW",
+    "country_name": "Taiwan",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 3,
+    "max_severity": 3,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2018": 1
+    },
+    "most_recent": "2018-02-21",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "SG": {
+    "country_code": "SG",
+    "country_name": "Singapore",
+    "incident_count": 3,
+    "severity_distribution": {
+      "1": 0,
+      "2": 3,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2018": 1,
+      "2024": 2
+    },
+    "most_recent": "2024-08-29",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "IT": {
+    "country_code": "IT",
+    "country_name": "Italy",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 3,
+    "max_severity": 3,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2018": 1,
+      "2022": 1
+    },
+    "most_recent": "2022-08-06",
+    "top_types": [
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "CN": {
+    "country_code": "CN",
+    "country_name": "China",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2.5,
+    "max_severity": 3,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2018": 1,
+      "2024": 1
+    },
+    "most_recent": "2024-12-01",
+    "top_types": [
+      "home_invasion",
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "AT": {
+    "country_code": "AT",
+    "country_name": "Austria",
+    "incident_count": 3,
+    "severity_distribution": {
+      "1": 0,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "avg_severity": 3,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2018": 1,
+      "2019": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-11-26",
+    "top_types": [
+      "robbery",
+      "torture",
+      "murder"
+    ],
+    "is_conflict_zone": false
+  },
+  "ZA": {
+    "country_code": "ZA",
+    "country_name": "South Africa",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2018": 1
+    },
+    "most_recent": "2018-11-16",
+    "top_types": [
+      "torture",
+      "otc_trade",
+      "drugging"
+    ],
+    "is_conflict_zone": false
+  },
+  "PK": {
+    "country_code": "PK",
+    "country_name": "Pakistan",
+    "incident_count": 5,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 4,
+      "5": 0
+    },
+    "avg_severity": 3.8,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2019": 1,
+      "2021": 1,
+      "2024": 1,
+      "2025": 2
+    },
+    "most_recent": "2025-10-01",
+    "top_types": [
+      "kidnapping",
+      "extortion",
+      "armed_robbery",
+      "otc_trade"
+    ],
+    "is_conflict_zone": false
+  },
+  "NO": {
+    "country_code": "NO",
+    "country_name": "Norway",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 3.5,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2019": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-08-06",
+    "top_types": [
+      "armed_robbery",
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "NG": {
+    "country_code": "NG",
+    "country_name": "Nigeria",
+    "incident_count": 3,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 0,
+      "5": 1
+    },
+    "avg_severity": 3.33,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2020": 1,
+      "2021": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-02-01",
+    "top_types": [
+      "murder",
+      "armed_robbery",
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "VN": {
+    "country_code": "VN",
+    "country_name": "Vietnam",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 3,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2020": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-02-28",
+    "top_types": [
+      "robbery",
+      "kidnapping",
+      "extortion"
+    ],
+    "is_conflict_zone": false
+  },
+  "LV": {
+    "country_code": "LV",
+    "country_name": "Latvia",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2020": 1
+    },
+    "most_recent": "2020-10-22",
+    "top_types": [
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "MT": {
+    "country_code": "MT",
+    "country_name": "Malta",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2021": 1
+    },
+    "most_recent": "2021-01-01",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "PL": {
+    "country_code": "PL",
+    "country_name": "Poland",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 3,
+    "max_severity": 3,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2021": 1
+    },
+    "most_recent": "2021-01-23",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "SE": {
+    "country_code": "SE",
+    "country_name": "Sweden",
+    "incident_count": 6,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 4,
+      "5": 0
+    },
+    "avg_severity": 3.5,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2025": 2
+    },
+    "most_recent": "2025-09-28",
+    "top_types": [
+      "robbery",
+      "home_invasion",
+      "armed_robbery",
+      "kidnapping",
+      "torture"
+    ],
+    "is_conflict_zone": false
+  },
+  "DE": {
+    "country_code": "DE",
+    "country_name": "Germany",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2021": 1
+    },
+    "most_recent": "2021-03-16",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "AR": {
+    "country_code": "AR",
+    "country_name": "Argentina",
+    "incident_count": 3,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "avg_severity": 4,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2021": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-05-27",
+    "top_types": [
+      "armed_robbery",
+      "murder",
+      "otc_trade",
+      "drugging",
+      "extortion"
+    ],
+    "is_conflict_zone": false
+  },
+  "KR": {
+    "country_code": "KR",
+    "country_name": "South Korea",
+    "incident_count": 5,
+    "severity_distribution": {
+      "1": 0,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 2.6,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2021": 1,
+      "2023": 1,
+      "2025": 3
+    },
+    "most_recent": "2025-05-21",
+    "top_types": [
+      "robbery",
+      "otc_trade",
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "CO": {
+    "country_code": "CO",
+    "country_name": "Colombia",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2021": 1,
+      "2023": 1
+    },
+    "most_recent": "2023-02-27",
+    "top_types": [
+      "drugging",
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "GE": {
+    "country_code": "GE",
+    "country_name": "Georgia",
+    "incident_count": 4,
+    "severity_distribution": {
+      "1": 0,
+      "2": 2,
+      "3": 1,
+      "4": 0,
+      "5": 1
+    },
+    "avg_severity": 3,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2021": 3,
+      "2023": 1
+    },
+    "most_recent": "2023-10-30",
+    "top_types": [
+      "mining_theft",
+      "murder",
+      "armed_robbery",
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "NZ": {
+    "country_code": "NZ",
+    "country_name": "New Zealand",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2021": 1
+    },
+    "most_recent": "2021-09-09",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "ES": {
+    "country_code": "ES",
+    "country_name": "Spain",
+    "incident_count": 6,
+    "severity_distribution": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 4,
+      "5": 0
+    },
+    "avg_severity": 3.33,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2021": 2,
+      "2023": 2,
+      "2025": 2
+    },
+    "most_recent": "2025-04-01",
+    "top_types": [
+      "torture",
+      "kidnapping",
+      "extortion",
+      "atm_theft",
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "ID": {
+    "country_code": "ID",
+    "country_name": "Indonesia",
+    "incident_count": 4,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 2,
+      "5": 0
+    },
+    "avg_severity": 3.5,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2021": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-10-23",
+    "top_types": [
+      "kidnapping",
+      "armed_robbery",
+      "home_invasion"
+    ],
+    "is_conflict_zone": false
+  },
+  "BE": {
+    "country_code": "BE",
+    "country_name": "Belgium",
+    "incident_count": 3,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 0
+    },
+    "avg_severity": 3.67,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2022": 1,
+      "2024": 1,
+      "2026": 1
+    },
+    "most_recent": "2026-01-10",
+    "top_types": [
+      "home_invasion",
+      "kidnapping",
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "MY": {
+    "country_code": "MY",
+    "country_name": "Malaysia",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 3,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2022": 1,
+      "2024": 1
+    },
+    "most_recent": "2024-07-11",
+    "top_types": [
+      "mining_theft",
+      "kidnapping",
+      "extortion"
+    ],
+    "is_conflict_zone": false
+  },
+  "AU": {
+    "country_code": "AU",
+    "country_name": "Australia",
+    "incident_count": 3,
+    "severity_distribution": {
+      "1": 1,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 2.33,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2023": 2,
+      "2024": 1
+    },
+    "most_recent": "2024-12-03",
+    "top_types": [
+      "robbery",
+      "kidnapping",
+      "torture",
+      "otc_trade",
+      "extortion"
+    ],
+    "is_conflict_zone": false
+  },
+  "IL": {
+    "country_code": "IL",
+    "country_name": "Israel",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 3.5,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2023": 1,
+      "2025": 1
+    },
+    "most_recent": "2025-09-07",
+    "top_types": [
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "ME": {
+    "country_code": "ME",
+    "country_name": "Montenegro",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2023": 1
+    },
+    "most_recent": "2023-11-10",
+    "top_types": [
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "RO": {
+    "country_code": "RO",
+    "country_name": "Romania",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2024": 1
+    },
+    "most_recent": "2024-01-16",
+    "top_types": [
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "EE": {
+    "country_code": "EE",
+    "country_name": "Estonia",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2024": 1
+    },
+    "most_recent": "2024-07-29",
+    "top_types": [
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "CR": {
+    "country_code": "CR",
+    "country_name": "Costa Rica",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2024": 1
+    },
+    "most_recent": "2024-08-07",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "BG": {
+    "country_code": "BG",
+    "country_name": "Bulgaria",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2024": 1
+    },
+    "most_recent": "2024-10-01",
+    "top_types": [
+      "kidnapping",
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "GH": {
+    "country_code": "GH",
+    "country_name": "Ghana",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2024": 1
+    },
+    "most_recent": "2024-12-19",
+    "top_types": [
+      "torture"
+    ],
+    "is_conflict_zone": false
+  },
+  "CY": {
+    "country_code": "CY",
+    "country_name": "Cyprus",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 2,
+    "max_severity": 2,
+    "risk_tier": 1,
+    "incidents_by_year": {
+      "2024": 1
+    },
+    "most_recent": "2024-12-24",
+    "top_types": [
+      "robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "PH": {
+    "country_code": "PH",
+    "country_name": "Philippines",
+    "incident_count": 4,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 1
+    },
+    "avg_severity": 4.25,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2025": 3,
+      "2026": 1
+    },
+    "most_recent": "2026-01-16",
+    "top_types": [
+      "kidnapping",
+      "otc_trade",
+      "murder",
+      "armed_robbery",
+      "home_invasion"
+    ],
+    "is_conflict_zone": false
+  },
+  "PY": {
+    "country_code": "PY",
+    "country_name": "Paraguay",
+    "incident_count": 2,
+    "severity_distribution": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "avg_severity": 3.5,
+    "max_severity": 5,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2025": 2
+    },
+    "most_recent": "2025-11-05",
+    "top_types": [
+      "mining_theft",
+      "armed_robbery",
+      "murder"
+    ],
+    "is_conflict_zone": false
+  },
+  "UG": {
+    "country_code": "UG",
+    "country_name": "Uganda",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2025": 1
+    },
+    "most_recent": "2025-05-17",
+    "top_types": [
+      "kidnapping",
+      "armed_robbery"
+    ],
+    "is_conflict_zone": false
+  },
+  "LK": {
+    "country_code": "LK",
+    "country_name": "Sri Lanka",
+    "incident_count": 1,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "avg_severity": 4,
+    "max_severity": 4,
+    "risk_tier": 2,
+    "incidents_by_year": {
+      "2025": 1
+    },
+    "most_recent": "2025-08-22",
+    "top_types": [
+      "kidnapping"
+    ],
+    "is_conflict_zone": false
+  },
+  "AF": {
+    "country_code": "AF",
+    "country_name": "Afghanistan",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, terrorism, kidnapping"
+  },
+  "BY": {
+    "country_code": "BY",
+    "country_name": "Belarus",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Arbitrary enforcement, risk of detention"
+  },
+  "BF": {
+    "country_code": "BF",
+    "country_name": "Burkina Faso",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Terrorism, armed conflict, kidnapping"
+  },
+  "MM": {
+    "country_code": "MM",
+    "country_name": "Myanmar",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Civil war, martial law"
+  },
+  "CF": {
+    "country_code": "CF",
+    "country_name": "Central African Republic",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, terrorism"
+  },
+  "HT": {
+    "country_code": "HT",
+    "country_name": "Haiti",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Gang violence, kidnapping, lawlessness"
+  },
+  "IR": {
+    "country_code": "IR",
+    "country_name": "Iran",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Arbitrary detention, terrorism"
+  },
+  "IQ": {
+    "country_code": "IQ",
+    "country_name": "Iraq",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Terrorism, armed conflict, kidnapping"
+  },
+  "LB": {
+    "country_code": "LB",
+    "country_name": "Lebanon",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, instability"
+  },
+  "LY": {
+    "country_code": "LY",
+    "country_name": "Libya",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, civil unrest"
+  },
+  "ML": {
+    "country_code": "ML",
+    "country_name": "Mali",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Terrorism, armed conflict, kidnapping"
+  },
+  "NE": {
+    "country_code": "NE",
+    "country_name": "Niger",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Terrorism, armed conflict"
+  },
+  "KP": {
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Serious risk of arrest/detention"
+  },
+  "SO": {
+    "country_code": "SO",
+    "country_name": "Somalia",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, terrorism, piracy"
+  },
+  "SS": {
+    "country_code": "SS",
+    "country_name": "South Sudan",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, violent crime"
+  },
+  "SD": {
+    "country_code": "SD",
+    "country_name": "Sudan",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Civil war, humanitarian crisis"
+  },
+  "SY": {
+    "country_code": "SY",
+    "country_name": "Syria",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, terrorism"
+  },
+  "VE": {
+    "country_code": "VE",
+    "country_name": "Venezuela",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Violent crime, arbitrary detention"
+  },
+  "YE": {
+    "country_code": "YE",
+    "country_name": "Yemen",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict, terrorism"
+  },
+  "PS": {
+    "country_code": "PS",
+    "country_name": "Palestine",
+    "incident_count": 0,
+    "severity_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "avg_severity": 0,
+    "max_severity": 0,
+    "risk_tier": 5,
+    "incidents_by_year": {},
+    "most_recent": null,
+    "top_types": [],
+    "is_conflict_zone": true,
+    "conflict_reason": "Armed conflict"
+  }
+}
