@@ -1,0 +1,32 @@
+{
+  "description": "Countries flagged as conflict/no-go zones. Based on US State Dept Level 4 'Do Not Travel' advisories as of February 2026.",
+  "updated": "2026-02-13",
+  "sources": [
+    "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
+    "https://acleddata.com"
+  ],
+  "countries": [
+    { "code": "AF", "name": "Afghanistan", "reason": "Armed conflict, terrorism, kidnapping" },
+    { "code": "BY", "name": "Belarus", "reason": "Arbitrary enforcement, risk of detention" },
+    { "code": "BF", "name": "Burkina Faso", "reason": "Terrorism, armed conflict, kidnapping" },
+    { "code": "MM", "name": "Myanmar", "reason": "Civil war, martial law" },
+    { "code": "CF", "name": "Central African Republic", "reason": "Armed conflict, terrorism" },
+    { "code": "HT", "name": "Haiti", "reason": "Gang violence, kidnapping, lawlessness" },
+    { "code": "IR", "name": "Iran", "reason": "Arbitrary detention, terrorism" },
+    { "code": "IQ", "name": "Iraq", "reason": "Terrorism, armed conflict, kidnapping" },
+    { "code": "LB", "name": "Lebanon", "reason": "Armed conflict, instability" },
+    { "code": "LY", "name": "Libya", "reason": "Armed conflict, civil unrest" },
+    { "code": "ML", "name": "Mali", "reason": "Terrorism, armed conflict, kidnapping" },
+    { "code": "NE", "name": "Niger", "reason": "Terrorism, armed conflict" },
+    { "code": "KP", "name": "North Korea", "reason": "Serious risk of arrest/detention" },
+    { "code": "RU", "name": "Russia", "reason": "Armed conflict, arbitrary enforcement" },
+    { "code": "SO", "name": "Somalia", "reason": "Armed conflict, terrorism, piracy" },
+    { "code": "SS", "name": "South Sudan", "reason": "Armed conflict, violent crime" },
+    { "code": "SD", "name": "Sudan", "reason": "Civil war, humanitarian crisis" },
+    { "code": "SY", "name": "Syria", "reason": "Armed conflict, terrorism" },
+    { "code": "UA", "name": "Ukraine", "reason": "Armed conflict with Russia" },
+    { "code": "VE", "name": "Venezuela", "reason": "Violent crime, arbitrary detention" },
+    { "code": "YE", "name": "Yemen", "reason": "Armed conflict, terrorism" },
+    { "code": "PS", "name": "Palestine", "reason": "Armed conflict" }
+  ]
+}

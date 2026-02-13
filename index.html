@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Physical Attack Risk Map</title>
+  <meta name="description" content="Interactive map showing physical attack risk for cryptocurrency holders worldwide. Based on Jameson Lopp's database of known physical Bitcoin attacks." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F5FA;</text></svg>" />
+</head>
+<body>
+  <!-- SVG pattern for conflict zones -->
+  <svg style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+      <pattern id="conflict-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="rgba(0,0,0,0.25)" stroke-width="2"/>
+      </pattern>
+    </defs>
+  </svg>
+
+  <div id="app">
+    <!-- Mobile sidebar toggle -->
+    <button id="sidebar-toggle" aria-label="Toggle sidebar">&#9776;</button>
+
+    <aside id="sidebar">
+      <div id="sidebar-header"></div>
+      <div id="sidebar-stats"></div>
+      <div id="sidebar-filters"></div>
+      <div id="sidebar-detail"></div>
+
+      <footer id="sidebar-footer">
+        <div class="footer-section">
+          <h4>About This Map</h4>
+          <p>Physical attacks against crypto holders have increased significantly. This map aggregates all publicly known incidents to help you understand geographic risk.</p>
+          <p><strong>This is not financial advice. It is a personal safety resource.</strong></p>
+        </div>
+        <div class="footer-section">
+          <h4>Data Source</h4>
+          <p>Incident data from <a href="https://github.com/jlopp/physical-bitcoin-attacks" target="_blank" rel="noopener">Jameson Lopp's Physical Bitcoin Attacks</a> database (Unlicense). Severity classification inspired by <a href="https://haseebq.com" target="_blank" rel="noopener">Haseeb Qureshi's</a> analysis methodology.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Limitations</h4>
+          <ul>
+            <li><strong>Reporting bias:</strong> Attacks in countries with active English-language crypto media are more likely documented.</li>
+            <li><strong>Zero incidents does not equal safe:</strong> Gray countries may simply lack reporting.</li>
+            <li><strong>Conflict zones</strong> are flagged based on US State Dept Level 4 advisories regardless of crypto-specific data.</li>
+          </ul>
+        </div>
+        <div class="footer-section disclaimer">
+          <p>This map is for informational purposes only and does not constitute personal safety, legal, or financial advice.</p>
+        </div>
+      </footer>
+    </aside>
+
+    <div id="map-container">
+      <div id="map"></div>
+      <button id="back-to-world" class="hidden">&larr; Back to World</button>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

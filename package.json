@@ -1,0 +1,30 @@
+{
+  "name": "crypto-threat-map",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive map showing physical attack risk for cryptocurrency holders worldwide",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pipeline": "node data/pipeline/01-fetch-incidents.mjs && node data/pipeline/02-geocode.mjs && node data/pipeline/03-classify.mjs && node data/pipeline/04-aggregate.mjs",
+    "pipeline:publish": "npm run pipeline && cp data/generated/incidents.json data/generated/country-risk.json data/generated/us-state-risk.json data/generated/meta.json public/data/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliotFriedman/crypto-threat-map.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElliotFriedman/crypto-threat-map/issues"
+  },
+  "homepage": "https://github.com/ElliotFriedman/crypto-threat-map#readme",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

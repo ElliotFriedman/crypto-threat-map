@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+
+# Intermediate pipeline artifacts (only final generated files are committed)
+data/generated/incidents-raw.json
+data/generated/incidents-geocoded.json
+data/generated/incidents-classified.json
